@@ -2,7 +2,8 @@ var colors = require('colors');
 
 function message(){
   console.clear();
-  console.log('Higher random numbers below indicate more aggressive action:'.blue)
+  console.log('Higher random numbers below'.blue)
+  console.log('indicate more aggressive action:'.blue)
   const random = Math.floor(Math.random().toFixed(2) * 100);
   for (let i = 0; i < 3; i++) { console.log(''); };
   console.log(`                      ${random.toString()}%`.green);
