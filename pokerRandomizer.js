@@ -6,7 +6,7 @@ function message(){
   const random = Math.floor(Math.random().toFixed(2) * 100);
   for (let i = 0; i < 3; i++) { console.log(''); };
   console.log(`                      ${random.toString()}%`.green);
-  for (let i=0; i < 3; i++) {console.log(''); };
+  // for (let i=0; i < 3; i++) {console.log(''); };
 }
 
 function randomTimer(){
